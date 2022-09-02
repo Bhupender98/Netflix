@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bgImage{
+  height: auto;
+  width: 100vw;
+  background-color: #000;
+  opacity: 0.9;
+  padding-bottom: 2rem;
+}
+.nav{
+  height: 10vh;
+  width: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+.logo{
+  color: red;
+}
+.btns button{
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin-right: 0.8rem;
+  color: white;
+  background: transparent;
+}
+#signIn{
+  background-color: red;
+}
+#language{
+  border: 1px solid lightgray;
+}
+.collection{
+  height: auto;
+  width: 80vw;
+  margin:2rem auto;
+  /* border: 2px solid red; */
+}
+.collection h1{
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+}
+.cards{
+  height: auto;
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* border: 2px solid red; */
+}
+.card{
+  min-height: 309px;
+  width: 240px;
+  /* border: 2px solid #fff; */
+  margin-top: 1.5rem;
+  padding-bottom: 0.2rem;
+  border-radius: 12px;
+  box-shadow: rgb(255, 255, 255) 0px 2px 12px, rgb(255, 255, 255) 0px 4px 4px;
+}
+.image{
+  height: 58%;
+  width: 100%;
+}
+.image img{
+  height: 100%;
+  width: 100%;
+}
+.btn, .tag, .title{
+  height: 4vh;
+  color: white;
+  padding-left: 8px;
+  margin-top: 8px;
+}
+.tag p {
+  font-size: 14px;
+}
+.btn{
+  text-align: center;
+}
+.btn button{
+  padding: 9px 15px;
+  border-radius: 15px;
+  color: white;
+  background-color: red;
+}
